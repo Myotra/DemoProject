@@ -13,6 +13,8 @@
 		5E6473701A41CE6F00CB4DFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E64736F1A41CE6F00CB4DFD /* Images.xcassets */; };
 		5E6473731A41CE6F00CB4DFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E6473711A41CE6F00CB4DFD /* LaunchScreen.xib */; };
 		5E64737F1A41CE6F00CB4DFD /* DemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64737E1A41CE6F00CB4DFD /* DemoProjectTests.swift */; };
+		5E6473891A41D39F00CB4DFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6473881A41D39F00CB4DFD /* MapKit.framework */; };
+		5E64738B1A41EAA600CB4DFD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E64738A1A41EAA600CB4DFD /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5E6473781A41CE6F00CB4DFD /* DemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E64737D1A41CE6F00CB4DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E64737E1A41CE6F00CB4DFD /* DemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectTests.swift; sourceTree = "<group>"; };
+		5E6473881A41D39F00CB4DFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5E64738A1A41EAA600CB4DFD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E64738B1A41EAA600CB4DFD /* CoreLocation.framework in Frameworks */,
+				5E6473891A41D39F00CB4DFD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +96,8 @@
 		5E6473661A41CE6F00CB4DFD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E64738A1A41EAA600CB4DFD /* CoreLocation.framework */,
+				5E6473881A41D39F00CB4DFD /* MapKit.framework */,
 				5E6473671A41CE6F00CB4DFD /* Info.plist */,
 			);
 			name = "Supporting Files";
